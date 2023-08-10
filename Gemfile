@@ -1,8 +1,9 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "sinatra"
-gem "sinatra-contrib"
-gem "erubis"
-gem "webrick"
+gem 'erubis'
+gem 'pry'
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'webrick'
 
-ruby "3.2.0"
+ruby '3.2.0'
