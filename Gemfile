@@ -7,3 +7,7 @@ gem 'sinatra-contrib'
 gem 'webrick'
 
 ruby '3.2.0'
+
+group :production do
+  gem 'puma'
+end
